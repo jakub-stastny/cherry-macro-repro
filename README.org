@@ -1,0 +1,135 @@
+npx cherry compile src/components/my-footer.cljs
+[cherry] Compiling CLJS file: src/components/my-footer.cljs
+
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+Error: The "path" argument must be of type string or an instance of Buffer or URL. Received null
+    at new $APP.Wl (file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cljs.core.js:166:91)
+    at $APP.oq.l (file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cljs.core.js:772:319)
+    at tV (file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:38:130)
+    at file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:243:342
+    at Z (file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:22:244)
+    at file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:148:371
+    at Z (file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:22:244)
+    at l_ (file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:980:68)
+    at file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:981:173
+    at RW (file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:130:47) {
+  data: {
+    meta: null,
+    C: 6,
+    B: [
+      {
+        gb: null,
+        name: 'type',
+        va: 'type',
+        wc: 1174270348,
+        D: 2153775105,
+        J: 4096
+      },
+      {
+        gb: 'sci',
+        name: 'error',
+        va: 'sci/error',
+        wc: -979082803,
+        D: 2153775105,
+        J: 4096
+      },
+      {
+        gb: null,
+        name: 'line',
+        va: 'line',
+        wc: 212345235,
+        D: 2153775105,
+        J: 4096
+      },
+      2,
+      {
+        gb: null,
+        name: 'column',
+        va: 'column',
+        wc: 2078222095,
+        D: 2153775105,
+        J: 4096
+      },
+      3,
+      {
+        gb: null,
+        name: 'message',
+        va: 'message',
+        wc: -406056002,
+        D: 2153775105,
+        J: 4096
+      },
+      'The "path" argument must be of type string or an instance of Buffer or URL. Received null',
+      {
+        gb: 'sci.impl',
+        name: 'callstack',
+        va: 'sci.impl/callstack',
+        wc: -1621010557,
+        D: 2153775105,
+        J: 4096
+      },
+      Jh {
+        state: {
+          meta: null,
+          first: {
+            meta: null,
+            C: 2,
+            B: [Array],
+            F: null,
+            D: 16647951,
+            J: 401412
+          },
+          rest: {
+            meta: null,
+            first: [Object],
+            rest: null,
+            count: 1,
+            F: null,
+            D: 65937646,
+            J: 8192
+          },
+          count: 2,
+          F: null,
+          D: 65937646,
+          J: 8192
+        },
+        D: 32768,
+        J: 0
+      },
+      {
+        gb: null,
+        name: 'file',
+        va: 'file',
+        wc: -1269645878,
+        D: 2153775105,
+        J: 4096
+      },
+      null
+    ],
+    F: null,
+    D: 16647951,
+    J: 401412
+  },
+  cause: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received null
+      at Object.openSync (node:fs:588:10)
+      at Module.readFileSync (node:fs:464:35)
+      at file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:981:355
+      at file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:129:228
+      at RW (file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:129:241)
+      at VW.j (file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:514:321)
+      at VW.o (file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:514:448)
+      at $APP.Bh.A (file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cljs.core.js:345:405)
+      at WW (file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:133:157)
+      at FY.j (file:///Users/jakub/Documents/WIP/Projects/oso/node_modules/cherry-cljs/lib/cli.js:515:205) {
+    code: 'ERR_INVALID_ARG_TYPE'
+  },
+  description: undefined,
+  number: undefined,
+  fileName: undefined,
+  lineNumber: undefined,
+  columnNumber: undefined
+}
+
+Node.js v18.20.4

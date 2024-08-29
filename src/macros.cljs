@@ -7,5 +7,5 @@
 ;; (defmacro create-class [class-name]
 ;;   `(cherry.core/defclass ~class-name))
 
-(defmacro simple-macro
+(defmacro simple-macro []
   `(prn :simple))
